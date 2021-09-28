@@ -16,7 +16,7 @@
 
 - 요소를 클릭하면 그 요소 화면으로 이동한다. (depth가 깊어진다. )
 
-![스크린샷 2021-09-27 오전 10.16.57.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.16.57.png)
+![스크린샷 2021-09-27 오전 10.16.57.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%EC%A0%84_10.16.57.png)
 
 - RootViewController → 첫번째 화면
 - 사용자는 전체를 본다.
@@ -39,7 +39,7 @@
 - Navigation 연결 방법
     - 오른쪽 마우스로 연결하면 밑의 그림처럼 뜸
         
-        ![스크린샷 2021-09-27 오전 10.30.40.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.30.40.png)
+        ![스크린샷 2021-09-27 오전 10.30.40.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%EC%A0%84_10.30.40.png)
         
         - deprecated : 쓰지 않는다. (옛날 버전으로 쓸 수 있다.)
         - Relationship Segue : 관계를 맺어준다.
@@ -48,16 +48,16 @@
 - **화면 전환하기**
     - 추가한 버튼에서 오른쪽 마우스를 클릭한 후 전환할 뷰에 연결한다.
         
-        ![스크린샷 2021-09-27 오전 10.37.49.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.37.49.png)
+        ![스크린샷 2021-09-27 오전 10.37.49.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%EC%A0%84_10.37.49.png)
         
         - Show Detail, Present As Popover : 아이패드 전용
     - Show 클릭 후 뒤로가기 버튼이 생김
         
-        ![스크린샷 2021-09-27 오전 10.38.42.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.42.png)
+        ![스크린샷 2021-09-27 오전 10.38.42.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%EC%A0%84_10.38.42.png)
         
     - Present Modally 연결 후 아래에서 모달이 올라옴
         
-        ![스크린샷 2021-09-27 오전 10.42.58.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.42.58.png)
+        ![스크린샷 2021-09-27 오전 10.42.58.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%EC%A0%84_10.42.58.png)
         
     
     대부분의 경우 show를 쓰고 선택지가 있을 경우 Present Modally을 사용
@@ -69,7 +69,7 @@ Warning이 뜨는 이유
 
 - 아이폰 화면의 크기가 여러 개여서 자동으로 맞춰주려면 Auto Layout으로 해야한다고 알려주는 것!
 
-![스크린샷 2021-09-27 오전 10.50.57.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.50.57.png)
+![스크린샷 2021-09-27 오전 10.50.57.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%EC%A0%84_10.50.57.png)
 
 - 이전 뷰로 또 Show를 이용한 화면 전환을 한다면 그대로 스택이 쌓인다.
 
@@ -170,7 +170,7 @@ Warning이 뜨는 이유
 - TableViewController의 Class indentity 설정
 - View Controller 와 Cell을 연결
     
-    ![스크린샷 2021-09-27 오후 2.10.27.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.10.27.png)
+    ![스크린샷 2021-09-27 오후 2.10.27.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%ED%9B%84_2.10.27.png)
     
 - Selection Segue의 Show 선택
 - 전환될 ViewController의 클래스 생성 → UIViewController 상속
@@ -234,7 +234,7 @@ Warning이 뜨는 이유
 
 ### 2. UITabBarController
 
-![스크린샷 2021-09-27 오후 4.16.50.png](day1%20ff8a8f475555405d824b845acec22a23/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-27_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.16.50.png)
+![스크린샷 2021-09-27 오후 4.16.50.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day1_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-27_%EC%98%A4%ED%9B%84_4.16.50.png)
 
 - 나란히 있다.
 - 탭바는 아이폰에서는 5개까지 가능
