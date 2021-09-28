@@ -20,9 +20,9 @@ info.plist : 프로젝트의 설정 관련된 속성
 
 key = string
 
-![스크린샷 2021-09-28 오전 10.15.42.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day2_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-28_%EC%98%A4%EC%A0%84_10.15.42.png)
+![스크린샷 2021-09-28 오전 10.15.42.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/day2_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-28_%EC%98%A4%EC%A0%84_10.15.42.png)
 
-![스크린샷 2021-09-28 오전 10.24.27.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day2_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-28_%EC%98%A4%EC%A0%84_10.24.27.png)
+![스크린샷 2021-09-28 오전 10.24.27.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/day2_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-28_%EC%98%A4%EC%A0%84_10.24.27.png)
 
 SandBox
 내가 만든 앱으로 다른 앱을 제어할 수 없음, 테두리가 쳐져있다. 설치 경로를 알 수 없다.
@@ -129,7 +129,7 @@ if let bts = self.bts {
 
 ### 4. PList 수정, 삭제, 추가
 
-![스크린샷 2021-09-28 오후 2.08.56.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/%EA%B0%95%EC%9D%98%20%EC%A0%95%EB%A6%AC%20%EB%82%B4%EC%9A%A9/md_images/day2_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-28_%EC%98%A4%ED%9B%84_2.08.56.png)
+![스크린샷 2021-09-28 오후 2.08.56.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/day2_images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-28_%EC%98%A4%ED%9B%84_2.08.56.png)
 
 - Document 폴더에 복사한 후 PList를 읽을 때 복사한 list를 읽어야한다.
 - 앱이 실행될 때 복사한다. → 최초 한번만 복사해야한다.
