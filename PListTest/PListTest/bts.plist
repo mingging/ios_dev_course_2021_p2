@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>stage_name</key>
+		<string>RM</string>
+		<key>name</key>
+		<string>김남준</string>
+		<key>image</key>
+		<string>bts1</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>진</string>
+		<key>name</key>
+		<string>김석진</string>
+		<key>image</key>
+		<string>bts2</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>슈가</string>
+		<key>name</key>
+		<string>민윤기</string>
+		<key>image</key>
+		<string>bts3</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>제이홉</string>
+		<key>name</key>
+		<string>정호석</string>
+		<key>image</key>
+		<string>bts4</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>지민</string>
+		<key>name</key>
+		<string>박지민</string>
+		<key>image</key>
+		<string>bts5</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>뷔</string>
+		<key>name</key>
+		<string>김태형</string>
+		<key>image</key>
+		<string>bts6</string>
+	</dict>
+	<dict>
+		<key>stage_name</key>
+		<string>정국</string>
+		<key>name</key>
+		<string>전정국</string>
+		<key>image</key>
+		<string>bts7</string>
+	</dict>
+</array>
+</plist>
