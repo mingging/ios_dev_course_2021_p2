@@ -6,7 +6,7 @@
 
 ### 1. AlertView
 
-![스크린샷 2021-09-29 오전 10.07.20.png](Day3_Alert,%20ImagePicker,%20WebView%2005ee5c9d3fbb411ca73588d9f2568320/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-29_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.07.20.png)
+![스크린샷 2021-09-29 오전 10.07.20.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day3_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-29_%EC%98%A4%EC%A0%84_10.07.20.png)
 
 - 아이폰은 취소가 앞에 있다.
 
@@ -79,7 +79,7 @@ AlertController는 틀이고 실제 동작은 Action이 한다.
 
 ### 2. ActionSheet
 
-![스크린샷 2021-09-29 오전 10.08.38.png](Day3_Alert,%20ImagePicker,%20WebView%2005ee5c9d3fbb411ca73588d9f2568320/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-29_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.08.38.png)
+![스크린샷 2021-09-29 오전 10.08.38.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day3_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-29_%EC%98%A4%EC%A0%84_10.08.38.png)
 
 ActionView와 ActionSheet는 원래 나뉘어져 있었는데 합쳐졌다.
 
@@ -92,7 +92,7 @@ ActionView와 ActionSheet는 원래 나뉘어져 있었는데 합쳐졌다.
 - 부르기
     - `present(picker, animated: true)`
 
-![스크린샷 2021-09-29 오전 11.46.45.png](Day3_Alert,%20ImagePicker,%20WebView%2005ee5c9d3fbb411ca73588d9f2568320/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-29_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.46.45.png)
+![스크린샷 2021-09-29 오전 11.46.45.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day3_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-29_%EC%98%A4%EC%A0%84_11.46.45.png)
 
 - 속성 추가하기
     - `picker.sourceType = .camera`
@@ -153,7 +153,7 @@ present(alert, animated: true)
 
 ## 3. WKWebView
 
-![스크린샷 2021-09-29 오후 2.41.22.png](Day3_Alert,%20ImagePicker,%20WebView%2005ee5c9d3fbb411ca73588d9f2568320/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-29_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.41.22.png)
+![스크린샷 2021-09-29 오후 2.41.22.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day3_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-29_%EC%98%A4%ED%9B%84_2.41.22.png)
 
 - 주소로부터 요청을 받고 서버는 응답을 전달해줌
 - Request를 만들어서 보낸다.
@@ -182,7 +182,7 @@ import MapKit
 - Frameworks, Libraries, and Embedded Content
     - 여기에서 MapKit.framework를 추가해준다.
     
-    ![스크린샷 2021-09-29 오후 3.33.51.png](Day3_Alert,%20ImagePicker,%20WebView%2005ee5c9d3fbb411ca73588d9f2568320/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-29_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.33.51.png)
+    ![스크린샷 2021-09-29 오후 3.33.51.png](https://github.com/minimanin/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day3_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-29_%EC%98%A4%ED%9B%84_3.33.51.png)
     
 - location과 span이 결정되야한다.
 
