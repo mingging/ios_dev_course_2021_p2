@@ -9,7 +9,7 @@ import UIKit
 
 class MainTableViewController: UITableViewController, UISearchBarDelegate {
 
-    let apiKey = "KakaoAK d28439fff0e8792c783d41dcea5cebdb"
+    let apiKey = "KakaoAK "
     var books:[[String:Any]]?
     @IBOutlet weak var searchBar: UISearchBar!
     var page = 1
