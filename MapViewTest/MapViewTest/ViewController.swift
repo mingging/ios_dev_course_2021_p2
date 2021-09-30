@@ -39,7 +39,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     @IBAction func actPin(_ sender: Any) {
-        let mark = MyAnnotation(title: "디즈니 랜드", subtitle: "캘리포니아", mapURL: "https://google.com", coordinate: location, thumbNail: "disney")
+        let mark = MyAnnotation(title: "디즈니 랜드", subtitle: "캘리포니아", mapURL: "https://disneyland.disney.go.com/", coordinate: location, thumbNail: "disney")
         mark.coordinate = location
         mapView.addAnnotation(mark)
     }
@@ -81,9 +81,17 @@ class ViewController: UIViewController, MKMapViewDelegate {
         return pinView
     }
     
-//    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-//        <#code#>
-//    }
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        guard let myAnnotation = view.annotation as? MyAnnotation,
+              let url = myAnnotation.mapURL
+        else {return}
+        
+//        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        guard let viewController = self.storyboard?.instantiateViewController(identifier: "detail") as? DetailViewController else {return}
+        
+        viewController.strURL = url
+        self.present(viewController, animated: true)
+    }
     
 }
 

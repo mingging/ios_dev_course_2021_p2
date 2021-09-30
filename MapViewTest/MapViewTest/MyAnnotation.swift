@@ -12,7 +12,7 @@ class MyAnnotation: NSObject, MKAnnotation{
     
     let title: String?
     let subtitle: String?
-    let mapURL: String
+    let mapURL: String?
     var coordinate: CLLocationCoordinate2D
     let thumbNail: String?
 
