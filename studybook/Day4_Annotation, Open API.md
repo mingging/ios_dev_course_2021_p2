@@ -27,7 +27,7 @@
     - 연결 : `mapView.delegate = self`
     
 
-![스크린샷 2021-09-30 오전 10.51.27.png](Day4_Annotation,%20Open%20API%20475d8cf5f164438188942ab04d297349/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-30_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.27.png)
+![스크린샷 2021-09-30 오전 10.51.27.png](https://github.com/mingging/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day4_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-30_%EC%98%A4%EC%A0%84_10.51.27.png)
 
 - 전체 코드
     
@@ -111,7 +111,7 @@ Application Programming Interface
 
 - API의 역할
 
-![스크린샷 2021-09-30 오전 11.45.33.png](Day4_Annotation,%20Open%20API%20475d8cf5f164438188942ab04d297349/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-30_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.45.33.png)
+![스크린샷 2021-09-30 오전 11.45.33.png](https://github.com/mingging/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day4_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-30_%EC%98%A4%EC%A0%84_11.45.33.png)
 
 - Open API는 서비스, 정보, 데이터 등 언제, 어디서 누구나 쉽게 이용할 수 있도록 개방된 API를 의미
 - 통신망의 구조 및 기술에 독립적으로 새로운 응용 서비스를 쉽게 개발할 수 있도록 한다.
@@ -141,7 +141,7 @@ Application Programming Interface
     
     - parameter
     
-    ![스크린샷 2021-09-30 오후 12.35.37.png](Day4_Annotation,%20Open%20API%20475d8cf5f164438188942ab04d297349/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2021-09-30_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_12.35.37.png)
+    ![스크린샷 2021-09-30 오후 12.35.37.png](https://github.com/mingging/ios_dev_course_2021_p2/blob/master/studybook/md_images/Day4_image/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2021-09-30_%EC%98%A4%ED%9B%84_12.35.37.png)
     
 - 프로젝트 생성
     - navigation controller, tableView, ,view contoller, webkit view 생성
