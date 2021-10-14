@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class CoronaTableViewController: UITableViewController, UISearchBarDelegate {
     
-    let SERVICE_KEY = "iGmpA8Nig1A6KiflTrlTLWr6eOjrMeOdLIegfAC0JvrjrwU5mgRXpHvyPQQhF6MlX2LWhexdWuRhIW5ZyAchIA=="
+    let SERVICE_KEY = ""
     var hospitals: [[String:Any]]?
 
     @IBOutlet weak var searchBar: UISearchBar!

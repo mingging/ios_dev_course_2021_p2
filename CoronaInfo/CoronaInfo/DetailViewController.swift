@@ -12,7 +12,7 @@ import SwiftyJSON
 class DetailViewController: UIViewController {
     
     var hospitals: [String:Any]?
-    let API_KEY = "KakaoAK d28439fff0e8792c783d41dcea5cebdb"
+    let API_KEY = ""
     var lat: String?
     var lon: String?
 
