@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizeTest
+
+  Created by minimani on 2021/10/15.
+  
+*/
+"hello" = "안녕하세요";
+"thankyou" = "감사합니다";
+"wantgohome" = "집에 가고 싶다";

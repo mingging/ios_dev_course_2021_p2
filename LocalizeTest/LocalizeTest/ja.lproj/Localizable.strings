@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizeTest
+
+  Created by minimani on 2021/10/15.
+  
+*/
+"hello" = "ごんにちは";
+"thankyou" = "ありがとう";
+"wantgohome" = "家にいきたい";
