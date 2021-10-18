@@ -13,18 +13,18 @@ class DetailViewController: UIViewController {
     
     var hospitals: [String:Any]?
     let API_KEY = ""
-    var lat: String?
-    var lon: String?
+    var lat: Double?
+    var lon: Double?
+    let mapView: MTMapView = MTMapView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         guard let hospital = self.hospitals,
               let address = hospital["orgZipaddr"] as? String else {return}
-        getCode(query: address)
-        
         let mapView = MTMapView(frame: self.view.bounds)
         mapView.baseMapType = .standard
         self.view.addSubview(mapView)
+        getCode(query: address)
     }
     
     func getCode(query: String){
@@ -37,9 +37,17 @@ class DetailViewController: UIViewController {
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
-                self.lat = json["documents"].arrayValue[0]["y"].string
-                self.lon = json["documents"].arrayValue[0]["x"].string
-                print(self.lat, self.lon)
+                self.lat = json["documents"].arrayValue[0]["y"].doubleValue
+                self.lon = json["documents"].arrayValue[0]["x"].doubleValue
+                guard let lat = self.lat, let lon = self.lon else {return}
+                let item = MTMapPOIItem()
+                let pointGeo = MTMapPointGeo(latitude: lat, longitude: lon)
+                let mapPoint = MTMapPoint(geoCoord: pointGeo)
+                self.mapView.setMapCenter(mapPoint, animated: true)
+                self.mapView.setZoomLevel(1, animated: true)
+                item.mapPoint = mapPoint
+                item.markerType = .redPin
+                self.mapView.add(item)
             case .failure(let error):
                 if let error = error.errorDescription {
                     print(error)
@@ -47,7 +55,6 @@ class DetailViewController: UIViewController {
             }
         }
     }
-    
 
     /*
     // MARK: - Navigation
