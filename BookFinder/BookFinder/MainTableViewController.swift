@@ -9,7 +9,7 @@ import UIKit
 
 class MainTableViewController: UITableViewController, UISearchBarDelegate {
 // d28439fff0e8792c783d41dcea5cebdb
-    let apiKey = "KakaoAK "
+    let apiKey = "KakaoAK d28439fff0e8792c783d41dcea5cebdb"
     var books:[[String:Any]]?
     @IBOutlet weak var searchBar: UISearchBar!
     var page = 1
@@ -32,6 +32,7 @@ class MainTableViewController: UITableViewController, UISearchBarDelegate {
                     self.tableView.reloadData()
                 }
             }
+            print(books)
         } catch {
             print("실패")
         }
